@@ -197,6 +197,7 @@
               argparse
               packages.gz_transport
               packages.gz_msgs
+              octomap
             ];
             configurePhase = ''
               cmake -S . -B build
